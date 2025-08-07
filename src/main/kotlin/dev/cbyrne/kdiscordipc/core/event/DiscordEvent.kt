@@ -19,5 +19,6 @@ enum class DiscordEvent(val eventName: String) {
     SpeakingStart("SPEAKING_START"),
     SpeakingStop("SPEAKING_STOP"),
     RelationshipUpdate("RELATIONSHIP_UPDATE"),
+    VoiceChannelSelect("VOICE_CHANNEL_SELECT"),
     VoiceSettingsUpdate("VOICE_SETTINGS_UPDATE")
 }
